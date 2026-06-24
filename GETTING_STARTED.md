@@ -22,8 +22,8 @@ configured cloud provider (**AWS Bedrock** by default, or **Azure OpenAI**).
 ## 1. Get the code
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/gohit/enterprise-knowledge-ops-agent.git
+cd enterprise-knowledge-ops-agent
 ```
 
 If you downloaded a zip, extract it and `cd` into the project folder.
