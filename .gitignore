@@ -1,0 +1,40 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets / config
+.env
+*.env
+!.env.example
+
+# Confidential / company documents — NEVER commit (internal "C3: Private" material)
+*.pdf
+*.docx
+*.slnx
+# (keep markdown READMEs etc. — only binary docs are excluded above)
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Generated vector store / indexes
+data/vectorstore/
+*.faiss
+*.index
+
+# Logs / traces
+logs/
+*.log
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
